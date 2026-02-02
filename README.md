@@ -39,6 +39,12 @@ Place a limit sell order for 0.001 BTC at $50,000:
 python -m trading_bot.cli limit --symbol BTCUSDT --side SELL --qty 0.001 --price 50000
 ```
 
+### UI Dashboard
+Launch the visual dashboard:
+```bash
+streamlit run trading_bot/ui.py
+```
+
 ### Help
 View all available commands:
 ```bash
